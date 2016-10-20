@@ -150,3 +150,13 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 #footer{padding:20px 0;}
 #footer p{margin:0; padding:0;}
+
+/*----------------------------------------------Aleix-------------------------------------*/
+#container #perfils{margin-bottom:50px; line-height:1.6em;}
+#container #perfils article{}
+#container #perfils h1{font-size:25px; padding-bottom:30px; padding-right:40px; text-align: center;}
+#container #perfils article h2{font-size:14px; padding-bottom:20px;  text-align: center;}
+#container #perfils article p{margin:0; padding:0; text-align: justify;}
+#container #perfils article img{float:right; width:200px; height:200px; margin:0 10px 10px 0; padding:4px; margin-right:20px; border:1px solid #DEDEDE;}
+#container #perfils article footer{margin:10px 0 0 0;}
+.alone_third{width:250px; margin:0 60px 30px 10px; float: right; margin-right: 40%;}
