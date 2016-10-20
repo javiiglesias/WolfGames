@@ -150,3 +150,11 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 #footer{padding:20px 0;}
 #footer p{margin:0; padding:0;}
+
+/*---------------------------------------------JAVI-------------------------------------*/
+#container #contacto{margin-bottom:50px; line-height:3em; alignment-baseline: central;}
+#container #contacto article{}
+#container #contacto article h2{font-size:14px; margin-bottom:50px;}
+#container #contacto article p{font-size: 12px; margin:0; padding:0;}
+#container #contacto article img{float:left; width:400px; height:80px; margin:0 10px 10px 0; padding:4px; border:1px solid #DEDEDE;}
+#container #contacto article footer{margin:10px 0 0 0;}
