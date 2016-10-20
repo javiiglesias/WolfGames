@@ -121,7 +121,7 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 /* ------Shout-----*/
 
-#container #shout{margin-bottom:50px; padding:30px 0;  border-bottom:5px solid #DEDEDE;}
+#container #shout{margin-bottom:50px; padding:30px 0;  border-bottom:5px solid #2E64FE;}
 #container #shout h1{font-size:56px; font-weight:normal; font-style:italic; text-transform:uppercase; text-align:center;}
 #container #shout p{font-size:16px; margin-bottom:0; padding-bottom:0; line-height:1.8em;}
 
@@ -134,7 +134,7 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #container #services{margin-bottom:50px; line-height:3em; alignment-baseline: central;}
 #container #services article{}
 #container #services article h2{font-size:24px; margin-bottom:20px;}
-#container #services article p{margin:0; padding:0;}
+#container #services article p{margin:0; padding:0; font-weight:bold; font-size:14px;}
 #container #services article img{float:left; width:400px; height:120px; margin:0 10px 10px 0; padding:4px; border:1px solid #DEDEDE;}
 #container #services article footer{margin:10px 0 0 0;}
 
@@ -143,9 +143,17 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #container #services2{margin-bottom:50px; line-height:1.6em;}
 #container #services2 article{}
 #container #services2 article h2{font-size:20px; margin-bottom:50px;}
-#container #services2 article p{margin:0; padding:0;}
+#container #services2 article p{margin:0; padding:0; font-size:14px;}
 #container #services2 article img{float:left; width:120px; height:120px; margin:0 10px 10px 0; padding:4px; border:1px solid #DEDEDE;}
 #container #services2 article footer{margin:10px 0 0 0;}
+
+#container #noticies{margin-bottom:50px; line-height:1.6em;}
+#container #noticies article{}
+#container #noticies article h2{font-size:20px; margin-bottom:50px;}
+#container #noticies article p{margin:0; padding:0; font-size:14px;}
+#container #noticies article footer{margin:10px 0 0 0;}
+
+
 
 /*----------------------------------------------Footer-------------------------------------*/
 
@@ -153,11 +161,11 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #footer p{margin:0; padding:0;}
 
 /*----------------------------------------------Aleix-------------------------------------*/
-#container #perfils{margin-bottom:50px; line-height:1.6em;}
-#container #perfils article{}
+#container #perfils{margin-bottom:50px; line-height:1.6em; alignment-baseline: central;}
+#container #perfils article{ padding-left:100px; padding-right:40px;}
 #container #perfils h1{font-size:25px; padding-bottom:30px; padding-right:40px; text-align: center;}
-#container #perfils article h2{font-size:14px; padding-bottom:20px;  text-align: center;}
-#container #perfils article p{margin:0; padding:0; text-align: justify;}
+#container #perfils article h2{font-size:20px; padding-bottom:20px;  text-align: center;}
+#container #perfils article p{margin:0; padding:0; text-align: justify; font-size:14px;}
 #container #perfils article img{float:right; width:200px; height:200px; margin:0 10px 10px 0; padding:4px; margin-right:20px; border:1px solid #DEDEDE;}
 #container #perfils article footer{margin:10px 0 0 0;}
 .alone_third{width:250px; margin:0 60px 30px 10px; float: right; margin-right: 40%;}
