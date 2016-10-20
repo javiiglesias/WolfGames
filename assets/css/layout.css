@@ -10,8 +10,8 @@ html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than 
 
 body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#979797; background-color:#FFFFFF;}
 
-.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
-.clear{display:block; clear:both;}
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0; }
+.clear{display:block; clear:both; }
 html[xmlns] .clear{display:block;}
 * html .clear{height:1%;}
 
@@ -133,15 +133,16 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 #container #services{margin-bottom:50px; line-height:3em; alignment-baseline: central;}
 #container #services article{}
-#container #services article h2{font-size:14px; margin-bottom:50px;}
+#container #services article h2{font-size:24px; margin-bottom:20px;}
 #container #services article p{margin:0; padding:0;}
-#container #services article img{float:left; width:400px; height:80px; margin:0 10px 10px 0; padding:4px; border:1px solid #DEDEDE;}
+#container #services article img{float:left; width:400px; height:120px; margin:0 10px 10px 0; padding:4px; border:1px solid #DEDEDE;}
 #container #services article footer{margin:10px 0 0 0;}
+
 
 
 #container #services2{margin-bottom:50px; line-height:1.6em;}
 #container #services2 article{}
-#container #services2 article h2{font-size:14px; margin-bottom:50px;}
+#container #services2 article h2{font-size:20px; margin-bottom:50px;}
 #container #services2 article p{margin:0; padding:0;}
 #container #services2 article img{float:left; width:120px; height:120px; margin:0 10px 10px 0; padding:4px; border:1px solid #DEDEDE;}
 #container #services2 article footer{margin:10px 0 0 0;}
