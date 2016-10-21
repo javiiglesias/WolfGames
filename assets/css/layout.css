@@ -169,3 +169,6 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #container #perfils article img{float:right; width:200px; height:200px; margin:0 10px 10px 0; padding:4px; margin-right:20px; border:1px solid #DEDEDE;}
 #container #perfils article footer{margin:10px 0 0 0;}
 .alone_third{width:250px; margin:0 60px 30px 10px; float: right; margin-right: 40%;}
+
+#container #hacemos{margin-bottom:10px; line-height:3em; alignment-baseline: central;}
+#container #hacemos p{margin:0;  border-bottom: 2px solid lightgrey;  padding:0; padding-bottom: 30px; padding-top: 10px; font-size:14px; text-align: justify;}
