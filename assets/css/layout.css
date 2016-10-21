@@ -159,4 +159,5 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #container #perfils article p{margin:0; padding:0; text-align: justify;}
 #container #perfils article img{float:right; width:200px; height:200px; margin:0 10px 10px 0; padding:4px; margin-right:20px; border:1px solid #DEDEDE;}
 #container #perfils article footer{margin:10px 0 0 0;}
-.alone_third{width:250px; margin:0 60px 30px 10px; float: right; margin-right: 40%;}
+
+.double_double{width:250px; margin:0 60px 70px 10px; float: left; margin-left: 12%;}
