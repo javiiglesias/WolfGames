@@ -3,7 +3,8 @@
 <head>
 <title>Wolf Games</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="assets/css/layout.css" type="text/css">
+<link rel="stylesheet" href="assets/css/position.css" type="text/css">
+<link rel="stylesheet" href="assets/css/aperance.css" type="text/css">
 <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
 </head>
 <body>
@@ -41,28 +42,41 @@
       <article class="one_third">
         <h2>¿Dónde estamos?</h2>
         <p>Puedes visitar nuestras oficinas ubicadas en el Carrer del Museu, 24, 08401.</p> 
-        <p>Otros metodos de contacto:</p> 
-        <p>Dirección de Correo: Direccion@WolfGames.com<p>
-        <p>Número de telefono: 93 570 89 65</p>
+        <p><b>Dirección de Correo:</b> Direccion@WolfGames.com<p>
+        <p><b>Número de telefono:</b> 93 570 89 65</p>
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d527.3673879630743!2d2.2856491015137723!3d41.60731185151702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d41.607326!2d2.285742!4m0!5e0!3m2!1ses!2ses!4v1476972774841" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         
       </article>
       <article class="two_third">
-      <h2>Formularió de Contacto</h2>
+      <h2>Formulario de Contacto</h2>
+      <table>
       <form id="formulario" method="post">
-    	<div>
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" />
-   		</div>
-   		<div>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" />
-    	</div>
-    	<div>
-        <label for="msg">Mensaje:</label>
-        <textarea id="msg"></textarea>
-   		</div>
+      <tr>
+        <th>
+            <label for="name">Nombre:</label>
+        </th>
+        <th>
+          <input type="text" id="name" />
+        </th>
+      </tr>
+      <tr>
+        <th>
+            <label for="mail">E-mail:</label>
+        </th>
+        <th>
+          <input type="email" id="mail" />
+        </th>
+      </tr>
+      <tr>
+        <th>
+            <label for="msg">Mensaje:</label>
+        </th>
+        <th>
+            <textarea id="msg"></textarea>
+        </th>
+      </tr>     
+      </table>
     
     <div class="button">
         <button type="submit">Enviar</button>

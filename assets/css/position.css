@@ -1,0 +1,149 @@
+/*
+HTML 5 Template Name: Basic 79
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body{margin:0; padding:0; }
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0; }
+.clear{display:block; clear:both; }
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{display:block; width:960px;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+
+blockquote, q{display:block; padding:8px 10px;}
+
+.one_third, .two_third, .three_third{display:block; float:left; margin:0 30px 0 0;}
+.one_third{width:300px;}
+.two_third{width:630px;}
+.three_third{width:960px; float:none; margin-right:0; clear:both;}
+.lastbox{margin-right:0;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0;}
+
+#header #hgroup{float:left; margin:0 0 0px 0;}
+
+
+
+#header nav{display:block; float:right; margin:10px 0 0 0; padding:20px 0; }
+#header nav ul{padding:0 20px;}
+#header nav li{display:inline; margin-right:25px;}
+#header nav li.last{margin-right:0;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{display:block; width:960px; margin:0 auto;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; }
+
+blockquote, q{display:block; padding:8px 10px;}
+
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+
+.one_quarter, .two_quarter, .three_quarter, .four_quarter{display:block; float:left; margin:0 20px 0 0;}
+.one_quarter{width:225px;}
+.two_quarter{width:470px;}
+.three_quarter{width:715px;}
+.four_quarter{width:960px; float:none; margin-right:0; clear:both;}
+
+.one_third, .two_third, .three_third{display:block; float:left;  }
+.one_third{width:450px; margin:0 30px 0 0;}
+.two_third{width:250px; margin:0 60px 30px 10px;}
+.three_third{width:960px; float:none; margin-right:0; clear:both;}
+.lastbox{margin-right:0;}
+
+.lastbox{margin-right:0;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:30px 0;}
+#container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
+#container .last{margin:0;}
+#container .more{text-align:right;}
+
+/* ------Shout-----*/
+
+#container #shout{margin-bottom:50px; padding:30px 0;}
+
+#container #shout2{margin-bottom:20px; padding:30px 0; }
+
+/* ------services-----*/
+
+#container #services{alignment-baseline: central;}
+#container #services article{}
+#container #services article h2{margin-bottom:20px;}
+#container #services article p{margin:0; padding:0;}
+#container #services article img{float:left; width:400px; height:120px; margin:0 10px 10px 0; padding:4px; }
+#container #services article footer{margin:10px 0 0 0;}
+
+
+
+#container #services2{margin-bottom:50px;}
+#container #services2 article{}
+#container #services2 article h2{margin-bottom:50px;}
+#container #services2 article p{margin:0; padding:0;}
+#container #services2 article img{float:left; width:120px; height:120px; margin:0 10px 10px 0; padding:4px;}
+#container #services2 article footer{margin:10px 0 0 0;}
+
+#container #noticies{margin-bottom:50px;}
+#container #noticies article{}
+#container #noticies article h2{margin-bottom:50px;}
+#container #noticies article p{margin:0; padding:0;}
+#container #noticies article footer{margin:10px 0 0 0;}
+
+
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{padding:20px 0;}
+#footer p{margin:0; padding:0;}
+
+/*----------------------------------------------Aleix-------------------------------------*/
+#container #perfils{margin-bottom:50px; line-height:1.6em; alignment-baseline: central;}
+#container #perfils article{ padding-left:100px; padding-right:40px;}
+#container #perfils h1{padding-bottom:30px; padding-right:40px; text-align: center;}
+#container #perfils article h2{padding-bottom:20px;  text-align: center;}
+#container #perfils article p{margin:0; padding:0; text-align: justify;}
+#container #perfils article img{float:right; width:200px; height:200px; margin:0 10px 10px 0; padding:4px; margin-right:20px;}
+#container #perfils article footer{margin:10px 0 0 0;}
+.alone_third{width:250px; margin:0 60px 30px 10px; float: right; margin-right: 40%;}
+
+#container #hacemos{margin-bottom:10px; line-height:3em; alignment-baseline: central;}
+#container #hacemos p{margin:0;  border-bottom: 2px solid lightgrey;  padding:0; padding-bottom: 30px; padding-top: 10px; font-size:14px; text-align: justify;}
